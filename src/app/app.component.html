@@ -1,3 +1,9 @@
-<span>{{ title }}</span>
 
-   
+<canvas #canvas 
+    height="800" width="800"
+    (mousedown)="start()"
+    (mousemove)="mouseMove($event)"
+    (mouseup)="stop()"
+></canvas>
+
+

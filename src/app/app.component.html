@@ -1,9 +1,14 @@
 
+<app-pojazd></app-pojazd>
+
+<app-dziedziczenie></app-dziedziczenie>
+
+<div>
 <canvas #canvas 
     height="800" width="800"
+    style="border: 1px solid rgb(43, 55, 163);"
     (mousedown)="start()"
     (mousemove)="mouseMove($event)"
     (mouseup)="stop()"
 ></canvas>
-
-
+</div>
